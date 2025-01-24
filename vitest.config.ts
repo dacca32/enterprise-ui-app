@@ -12,6 +12,7 @@ export default defineConfig({
   },
   test: {
     globals: true,
+    workspace: path.resolve(__dirname, './vitest.workspace.ts'),
     setupFiles: path.resolve(__dirname, 'src/test/setup.ts'),
     exclude: [...defaultExclude, '**/*.svelte**'],
     environmentMatchGlobs: [
