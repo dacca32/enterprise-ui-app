@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "uuid": "^11.0.5"
+  }
+}
